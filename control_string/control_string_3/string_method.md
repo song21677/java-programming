@@ -10,3 +10,4 @@
 |특정 위치의 문자 |      char charAt(int)      |                                                         String str = "ABCDEFG"; <br/> char result = str.charAt(2);                                                         |      C      |
 |지정한 문자의 위치 검색|     int indexOf(char)      |                                                        String str = "abcdef"; <br/> int result = str.indexOf("d");                                                         |      3      |
 |지정된 범위의 부분 문자열| String substring(int, int) |                                                     String str = "ABCEDF"; <br/> String result = str.substring(0, 2);                                                      |     AB      |
+
