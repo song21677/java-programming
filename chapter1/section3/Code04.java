@@ -1,14 +1,12 @@
-package control_string.control_string_3;
-
 import java.io.*;
 import java.util.Scanner;
 
-// Program: 개선된 Code3
+// Program: 개선된 IndexMaker
 // 단어의 앞뒤에 붙은 특수문자, 숫자 제거하기
 // 대문자와 소문자를 같은 단어로 취급하기
 // 단어들을 알파벳 순으로 정렬하기
 
-public class Code4 {
+public class Code04 {
     static String [] words = new String [100000];
 
     static int [] count = new int [100000];

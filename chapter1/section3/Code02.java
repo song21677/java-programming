@@ -1,4 +1,3 @@
-package control_string.control_string_1;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -7,7 +6,7 @@ import java.util.Scanner;
 // Program: 이름과 전화번호 입력받고 출력하기
 
 // 2) 파일 입력과 함수, 문자열 비교
-public class Code2 {
+public class Code02 {
     public static void main(String args[]) {
 
         int n = 0;

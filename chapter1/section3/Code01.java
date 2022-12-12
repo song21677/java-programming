@@ -1,11 +1,10 @@
-package control_string.control_string_1;
 import java.util.Scanner;
 
 // Lesson: 입출력과 배열 선언 그리고 함수, 문자열 비교
 // Program: 이름과 전화번호 입력받고 출력하기
 
 // 1) 키보드 입력과 배열 선언
-public class Code1 {
+public class Code01 {
     // 전역변수
     static int n = 0;
 

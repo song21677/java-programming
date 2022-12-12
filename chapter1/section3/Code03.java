@@ -1,10 +1,8 @@
-package control_string.control_string_2;
-
 import java.io.*;
 import java.util.Scanner;
 
 // Lesson: 파일 출력, 단어 찾기, 모듈화
-// Program
+// Program: IndexMaker
 // $ read sample.txt
 // 입력으로 하나의 텍스트 파일(sample.txt)을 읽는다.
 // 텍스트 파일에 등장하는 모든 단어들의 목록을 만들고, 각 단어가 텍스트 파일에 등장하는 횟수를 센다.
@@ -13,14 +11,14 @@ import java.util.Scanner;
 // $ saveas index.txt
 // 사용자가 요청하면 단어 목록을 하나의 파일(index.txt)로 저장한다.
 
-// $ find 무궁화
+// $ find linux
 // 사용자가 단어를 검색하면 그 단어가 텍스트 파일에 몇 번 등장하는지 출력한다.
-// The word "무궁화" appears 4 times.
+// The word "linux" appears 13 times.
 
 // $ exit
 // 프로그램을 종료한다.
 
-public class Code3 {
+public class Code03 {
     static String [] words = new String [100000];
 
     // c와 다르게 java에선 정수형 변수는 초기화해주지 않아도 0으로 초기화된다.
